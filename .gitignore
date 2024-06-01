@@ -40,3 +40,17 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+*.class
+*.log
+*.jar
+*.war
+*.ear
+/target/
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.ipr
+*.iws
