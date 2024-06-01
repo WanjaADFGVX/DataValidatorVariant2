@@ -4,4 +4,12 @@ jdk:
 
 script:
   - javac src/main/java/org/example/Main.java
-  - java -cp src Main
+  - java -cp src/main/java org.example.Main
+
+before_cache:
+  - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
+  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
+cache:
+  directories:
+    - $HOME/.gradle/caches/
+    - $HOME/.gradle/wrapper/
