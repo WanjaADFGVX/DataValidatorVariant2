@@ -1,3 +1,4 @@
+//Задание Вариант 2
 package org.example;
 
 import java.io.IOException;
